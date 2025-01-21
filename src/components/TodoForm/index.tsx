@@ -24,9 +24,21 @@ export const TodoForm: React.FC<TodoFormProps> = ({ addTodo }) => {
         }
     };
 
+    // обработчик нажатия клавиш
+    const handleKeyDown = (e: React.KeyboardEvent) => {
+        if (e.key === 'Enter') {
+            handleSubmit();
+        }
+    };
+
     return (
         <FormContainer>
-            <TextField label='New Task' value={inputValue} onChange={e => setInputValue(e.target.value)} />
+            <TextField
+                label='New Task'
+                value={inputValue}
+                onChange={e => setInputValue(e.target.value)}
+                onKeyDown={handleKeyDown}
+            />
             <AddButton onClick={handleSubmit} />
         </FormContainer>
     );
