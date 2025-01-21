@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/TishaKot/todo-list/static/js/main.ed723ea3.js",
-    "index.html": "/TishaKot/todo-list/index.html",
-    "main.ed723ea3.js.map": "/TishaKot/todo-list/static/js/main.ed723ea3.js.map"
+    "main.js": "/todo-list/static/js/main.b87e1d7f.js",
+    "index.html": "/todo-list/index.html",
+    "main.b87e1d7f.js.map": "/todo-list/static/js/main.b87e1d7f.js.map"
   },
   "entrypoints": [
-    "static/js/main.ed723ea3.js"
+    "static/js/main.b87e1d7f.js"
   ]
 }
